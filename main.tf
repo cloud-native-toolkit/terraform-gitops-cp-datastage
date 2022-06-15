@@ -18,7 +18,8 @@ locals {
       source = "ibm-operator-catalog"
       sourceNamespace = "openshift-marketplace"        
     }       
-  }   
+  } 
+    
   instance_content = {
     name = "datastage"
     cpd_namespace = var.cpd_namespace
