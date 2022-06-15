@@ -4,6 +4,11 @@ description: Module to populate a gitops repo with the resources to provision cp
 tags:
   - tools
   - gitops
+  - datastage
+  - ds
+  - cp4d
+  - cpd
+softwareProvider: ibm-cp
 versions:
   - platforms:
       - kubernetes
