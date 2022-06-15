@@ -1,0 +1,13 @@
+# Default values for DataStage Operator Subscription.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+name: ibm-cpd-datastage-operator-subscription
+operator_namespace: ibm-common-services
+syncWave: "-5"
+spec:
+  channel: v1.0
+  installPlanApproval: Automatic
+  name: ibm-cpd-datastage-operator
+  source: ibm-operator-catalog
+  sourceNamespace: openshift-marketplace
