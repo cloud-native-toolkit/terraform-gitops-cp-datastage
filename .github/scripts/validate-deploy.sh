@@ -56,6 +56,7 @@ fi
 
 echo "CP4D Operators namespace : "${OPERATOR_NAMESPACE}""
 echo "CP4D namespace : "${CPD_NAMESPACE}""
+echo "Subscription name : "${SUBSCRIPTION_NAME}""
 
 CSV=""
 count=0
