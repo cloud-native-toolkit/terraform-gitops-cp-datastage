@@ -30,7 +30,6 @@ locals {
         license = var.license
         }
       version = var.instance_version
-      storageVendor = var.storage_vendor
       storageClass = var.storage_class
       }               
     } 
