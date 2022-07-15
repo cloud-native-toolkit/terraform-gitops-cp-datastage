@@ -114,7 +114,7 @@ variable "operator_channel" {
 variable "instance_version" {
   type        = string
   description = "Instance version"
-  default     = "4.0.8"
+  default     = "4.0.9"
 }
 
 variable "license" {

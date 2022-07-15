@@ -8,6 +8,7 @@ module "cp-datastage" {
   kubeseal_cert = module.gitops.sealed_secrets_cert
   operator_namespace= "cpd-operators"
   # module.gitops_cp4d_operator.namespace
-  cpd_namespace = "gitops-cp4d-instance"
+  cpd_namespace = "cp4d"
   # module.cp4d-instance.namespace
+  storage_class = "ocs-storagecluster-cephfs"
 }
