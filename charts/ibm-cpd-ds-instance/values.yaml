@@ -1,0 +1,13 @@
+# Default values for DataStage Instance Cr.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+name: datastage
+cpd_namespace: gitops-cp4d-instance
+syncWave: "-3"
+spec:
+  license:
+    accept: true
+    license: Enterprise
+  version: 4.0.9
+  storageClass: portworx-shared-gp3
