@@ -44,6 +44,8 @@ This module makes use of the output from other modules:
   kubeseal_cert = module.gitops.sealed_secrets_cert
   operator_namespace= module.cp4d-operator.namespace
   cpd_namespace = module.cp4d-instance.namespace
+  storage_class = var.storageclass
+  
 }
 ```
 
